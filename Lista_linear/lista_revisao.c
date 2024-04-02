@@ -8,8 +8,12 @@ bool acessar(lista l, int pos){
     if( pos < 0 || pos >= MAX || pos > l.qnt-1) return false;
 
     int i;
-    for(i = 0; i < l.qnt; i++) if(i == pos) printf("\tpos: %d\n\telemento: %d\n",pos, l.itens[i]);
-    return true;
+    for(i = 0; i < l.qnt; i++){
+        if(i == pos){
+            printf("\tpos: %d\n\telemento: %d\n",pos, l.itens[i]);
+            return true;
+        }
+    }
 }
 
 bool alterar(lista *l, t_dado num, int pos){
