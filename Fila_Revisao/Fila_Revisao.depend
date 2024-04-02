@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1712014448 source:c:\users\user\desktop\programation\c\prova_estruturadedados\fila_revisao\fila_revisao.c
+	"fila_revisao.h"
+
+1712013641 c:\users\user\desktop\programation\c\prova_estruturadedados\fila_revisao\fila_revisao.h
+	<stdio.h>
+	<stdbool.h>
+
+1712014063 source:c:\users\user\desktop\programation\c\prova_estruturadedados\fila_revisao\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila_revisao.h"
+

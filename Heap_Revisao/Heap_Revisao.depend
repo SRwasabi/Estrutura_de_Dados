@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1712091706 source:c:\users\user\desktop\programation\c\prova_estruturadedados\heap_revisao\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
