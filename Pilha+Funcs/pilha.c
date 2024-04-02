@@ -39,7 +39,7 @@ bool stack_isfull(pilha p){
 ///: imprime a lista
 void imprimir(pilha p){
     int i;
-    printf("\n\tLISTA:\n");
+    printf("\n\tPILHA:\n");
     for(i = p.topo-1; i >= 0; i--){
         printf("\t%d\n", p.itens[i]);
     }
