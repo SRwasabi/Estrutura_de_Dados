@@ -21,19 +21,19 @@ bool pop(pilha *p, t_dado *r){
     return true;
 }
 
-///: acessa o elemento do topo da pilha p devolvendo uma cÛpia do seu valor
+///: acessa o elemento do topo da pilha p devolvendo uma c√≥pia do seu valor
 t_dado top(pilha p){
     return p.itens[p.topo-1];
 }
 
-///: devolve verdadeiro se a pilha p estiver vazia e falso, caso contr·rio
+///: devolve verdadeiro se a pilha p estiver vazia e falso, caso contr√°rio
 bool stack_isempty(pilha p){
     return p.topo == 0;
 }
 
-///: devolve verdadeiro se a pilha p estiver cheia e falso, caso contr·rio
+///: devolve verdadeiro se a pilha p estiver cheia e falso, caso contr√°rio
 bool stack_isfull(pilha p){
-    return p.topo == 10;
+    return p.topo == MAX;
 }
 
 ///: imprime a lista
