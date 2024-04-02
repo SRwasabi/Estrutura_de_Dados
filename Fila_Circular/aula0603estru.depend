@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1709737914 source:c:\users\ceitelabinfo\desktop\aula0603estru\fila.c
+	"fila.h"
+
+1709737994 c:\users\ceitelabinfo\desktop\aula0603estru\fila.h
+	<stdbool.h>
+
+1709738002 source:c:\users\ceitelabinfo\desktop\aula0603estru\main.c
+	"fila.h"
+	<stdio.h>
+	<stdlib.h>
+
+1709759127 source:c:\users\user\desktop\programation\c\fila_aula0603\main.c
+	"fila.h"
+	<stdio.h>
+	<stdlib.h>
+
+1709758177 c:\users\user\desktop\programation\c\fila_aula0603\fila.h
+	<stdbool.h>
+
+1709758839 source:c:\users\user\desktop\programation\c\fila_aula0603\fila.c
+	"fila.h"
+
