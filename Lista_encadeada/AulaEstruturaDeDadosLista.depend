@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1708973118 source:c:\users\user\desktop\programation\c\aulaestruturadedadoslista\lista_emcasa.c
+	"lista_emCasa.h"
+
+1708972184 source:c:\users\user\desktop\programation\c\aulaestruturadedadoslista\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_emCasa.h"
+
+1708971138 c:\users\user\desktop\programation\c\aulaestruturadedadoslista\lista_emcasa.h
+	<stdio.h>
+
