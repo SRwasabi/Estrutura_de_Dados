@@ -54,6 +54,7 @@ bool remover(lista *l, int pos){
     int i;
     for(i = pos; i < l->qnt; i++) l->itens[i] = l->itens[i+1];
     l->qnt--;
+    return true;
 
 }
 
