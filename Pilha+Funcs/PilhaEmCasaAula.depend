@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1709481292 source:c:\users\user\desktop\programation\c\pilhaemcasaaula\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
+	"dectobin.h"
+
+1709476263 source:c:\users\user\desktop\programation\c\pilhaemcasaaula\pilha.c
+	"pilha.h"
+
+1709236361 c:\users\user\desktop\programation\c\pilhaemcasaaula\pilha.h
+	<stdbool.h>
+	<stdio.h>
+
+1709476606 source:c:\users\user\desktop\programation\c\pilhaemcasaaula\dectobin.c
+	"dectobin.h"
+	"pilha.h"
+
+1709219439 c:\users\user\desktop\programation\c\pilhaemcasaaula\dectobin.h
+
+1709666180 source:c:\users\user\desktop\programation\c\pilhaemcasaaula\delimitador.c
+	"delimitador.h"
+
+1709233265 c:\users\user\desktop\programation\c\pilhaemcasaaula\delimitador.h
+	"pilha.h"
+
