@@ -22,8 +22,9 @@ bool alterar(lista *l, t_dado num, int pos){
     int i;
     for(i = 0; i < l->qnt; i++){ 
         if(i == pos){
-            l->itens[i] = num;}
+            l->itens[i] = num;
             return true;
+        }
     }
 }
 
