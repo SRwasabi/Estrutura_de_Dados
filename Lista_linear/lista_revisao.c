@@ -16,7 +16,11 @@ bool alterar(lista *l, t_dado num, int pos){
     if( pos < 0 || pos >= MAX || pos > l->qnt-1) return false;
 
     int i;
-    for(i = 0; i < l->qnt; i++) if(i == pos) l->itens[i] = num;
+    for(i = 0; i < l->qnt; i++){ 
+        if(i == pos){
+            l->itens[i] = num;}
+            return true;
+    }
 }
 
 bool inserir(lista *l, t_dado num, int pos){
